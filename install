@@ -14,7 +14,7 @@ cp -a .vim ~/.vim
 cp -a .vimrc ~/.vimrc
 cp -a .agignore ~/.agignore
 
-wget https://github.com/vim/vim/archive/v7.4.2367.tar.gz    
+wget -c https://github.com/vim/vim/archive/v7.4.2367.tar.gz    
 tar zxvf v7.4.2367.tar.gz  
 cd vim-7.4.2367/src/
 
